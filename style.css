@@ -13,7 +13,7 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -69,7 +69,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+input{
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -81,7 +81,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888888;
 }
-input[type="text"]:focus {
+input:focus {
   color: #333333;
 }
 
@@ -107,7 +107,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > input[type="text"]{
   margin: 0 10px;
 }
 li > label {
@@ -139,11 +139,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
     display:none;
 }
