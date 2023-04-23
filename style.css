@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.task-item, .task-title{
+.task-item,
+.task-title {
   list-style: none;
 }
 
-.inp, .btn{
+.inp,
+.btn {
   outline: none;
 }
 
@@ -85,7 +87,7 @@
   text-transform: uppercase;
 }
 
-.inp{
+.inp {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -128,7 +130,7 @@
   vertical-align: middle;
 }
 
-.task-item > .inp-text{
+.task-item > .inp-text {
   margin: 0 10px;
 }
 
