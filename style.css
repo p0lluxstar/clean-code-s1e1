@@ -46,12 +46,12 @@
 }
 
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task-item, .task-title{
-  list-style:none;
+  list-style: none;
 }
 
 .inp, .btn{
@@ -163,14 +163,14 @@
 /* Edit Task */
 
 .task-item .inp-text {
-  display:none
+  display: none
 }
 
 .edit-mode .inp-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .lbl {
-  display:none;
+  display: none;
 }
