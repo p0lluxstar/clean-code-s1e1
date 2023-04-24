@@ -13,11 +13,11 @@
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.header .more-inf {
+.more__inf {
   font-family: fantasy, cursive;
 }
 
@@ -41,26 +41,26 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
 }
 
-.task-list {
+.task__list {
   margin: 0;
   padding: 0px;
 }
 
-.task-item,
-.task-title {
+.task__item,
+.task__title {
   list-style: none;
 }
 
-.inp,
-.btn {
+.task__inp,
+.task__btn {
   outline: none;
 }
 
-.btn {
+.task__btn  {
   background: none;
   border: 0px;
   color: #888;
@@ -70,14 +70,14 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.task__btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 
-.task-title,
-.lbl[for="new-task"] {
+.task__title,
+.task__lbl[for="new-task"] {
   color: #333333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +87,7 @@
   text-transform: uppercase;
 }
 
-.inp {
+.task__inp {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,13 +100,13 @@
   color: #888888;
 }
 
-.inp:focus {
+.task__inp:focus {
   color: #333333;
 }
 
 /* New Task */
 
-.lbl[for="new-task"] {
+.task__lbl[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -117,7 +117,7 @@
 
 /* Task list */
 
-.task-item {
+.task__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eeeeee;
@@ -126,45 +126,45 @@
   align-items: center;
 }
 
-.task-item > * {
+.task__item > * {
   vertical-align: middle;
 }
 
-.task-item > .inp-text {
+.task__item > .inp-text {
   margin: 0 10px;
 }
 
-.task-item > .lbl {
+.task__item > .task__lbl {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-item > .inp-text {
+.task__item > .inp-text {
   width: 226px;
 }
 
-.btn-delete .btn-img {
+.btn-delete .btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-delete .btn-img:hover {
+.btn-delete .btn__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-#completed-tasks .lbl {
+#completed-tasks .task__lbl {
   text-decoration: line-through;
   color: #888888;
 }
 
 /* Edit Task */
 
-.task-item .inp-text {
+.task__item .inp-text {
   display: none;
 }
 
@@ -173,6 +173,6 @@
   width: 224px;
 }
 
-.edit-mode .lbl {
+.edit-mode .task__lbl {
   display: none;
 }
